@@ -1,0 +1,45 @@
+.wrapper {
+    max-width: 90rem;
+    margin: 2rem;
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+}
+
+.addButton {
+    text-decoration: none;
+    color: #f0f0f4;
+    background: #0a47fe;
+    max-width: 10rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    border-radius: 8px;
+    
+    transition: background-color 0.1s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.addButton:hover {
+    background: #3666f7;
+}
+
+.addButton svg {
+    padding: 0.1rem;
+    color: #0a47fe;
+    background: #f0f0f4;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+main > span {
+    font-weight: regular;
+    display: block;
+    font-size: 1.75rem;
+    margin: 2rem 0;
+}

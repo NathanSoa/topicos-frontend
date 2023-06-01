@@ -1,0 +1,38 @@
+.sidebar {
+    background: #f2f2f5;
+    height: 50rem; 
+    border-radius: 8px;
+}
+
+.sidebar > h1 {
+    padding: 1rem;
+    
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 5rem;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.content {
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.3rem;
+    padding-top: 0.5rem;
+    color: #383737;
+
+    transition: background-color 0.1s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+}
+
+.content:hover {
+    background: #0a47fe;
+    color: #fff;
+}

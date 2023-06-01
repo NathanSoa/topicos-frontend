@@ -1,0 +1,53 @@
+.table {
+    margin-top: 2rem;
+    width: 100%;
+    border-collapse: separete;
+    border-spacing: 0 1rem;
+    text-align: left;
+}
+
+.table th {
+    color: #bcbcc1;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    width: 20%;
+}
+
+.table tbody tr {
+    background: #f0f0f4;
+}
+
+.table tbody td:first-child {
+    width: 30%;
+}
+
+.table td {
+    padding: 1rem 0.75rem;
+}
+
+.delete {
+    background: #db1b38;
+    color: #fff;
+    padding: 0.2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.delete:hover {
+    background: #c21a34;
+}
+
+.photo {
+    background: #2ecf3c;
+    color: #fff;
+    padding: 0.2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.photo:hover {
+    background: #2dbb37;
+}

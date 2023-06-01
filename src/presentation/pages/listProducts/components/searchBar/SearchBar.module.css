@@ -1,0 +1,30 @@
+.searchInput {
+    background: #f0f0f4;
+    border: 0;
+    height: 2.5rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.button {
+    border: 0;
+    background: #0a47fe;
+    padding: 0.5rem;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: background-color 0.15s;
+}
+
+.button:hover {
+    background: #3666f7;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
